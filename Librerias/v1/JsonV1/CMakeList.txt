@@ -1,0 +1,16 @@
+# Versión mínima requerida de CMake
+cmake_minimum_required(VERSION 3.8)
+
+# Nombre del proyecto
+project(TUTORIAL)
+
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+
+# Agregar un ejecutable llamado 'programa' basado en el archivo fuente 'main.cpp'
+add_executable(programa main.cpp)
+target_link_libraries(programa #{CONAN_LIBS})
+
+file(COPY
+    my_config.json
+    DESTINATION ${CMAKE_BINARY_DIR}
+)
