@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/david/Documents/PRACTICA_BACKEND_CHAMBITA/C++",
-      "program": "c:/Users/david/Documents/PRACTICA_BACKEND_CHAMBITA/C++/build/Debug/outDebug",
+      "cwd": "c:/Users/david/Documents/PRACTICA_BACKEND_CHAMBITA/C++/Practicas",
+      "program": "c:/Users/david/Documents/PRACTICA_BACKEND_CHAMBITA/C++/Practicas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
